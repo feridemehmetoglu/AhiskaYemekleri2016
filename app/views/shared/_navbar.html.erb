@@ -1,0 +1,45 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+           <%= link_to 'AhiskaYemekleri' ,root_path ,class: "navbar-brand"%>
+        
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          	 
+            <li class="active"><%= link_to 'Home' ,root_path %></li>
+root_path
+						 <li class="dropdown">
+						        <a class="dropdown-toggle" data-toggle="dropdown" href="">Recipes
+						        <span class="caret"></span></a>
+						        <ul class="dropdown-menu">
+						          <li><a href="#">Hamut İşleri</a></li>
+						          <li><a href="#">Tatlılar</a></li>
+						          <li><a href="#">Salatalar</a></li>
+						        </ul>
+						      </li>
+
+            <li><%= link_to 'Gallery' ,pages_gallery_path %></li>
+            <li><%= link_to 'Contact' ,contacts_index_path %></li>
+            <li>
+            <div class="row"> 
+          <div class="col-md-2 col-md-offset-10 pdd"><%= link_to "Sign_out",destroy_user_session_path, :method => 'delete'%></div>
+        </div></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+        
+      </div>
+
+    </nav>
+
+
+pages_about_us_path
+  
