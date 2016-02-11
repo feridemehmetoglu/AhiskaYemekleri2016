@@ -3,3 +3,9 @@
 
    color: white;
 }
+.search-row{margin-top: 15px;padding-left: 170px;}
+.search-row .btn-color{background-color: #FF6600 ; color:#fff}
+.search-row .btn-color:hover{background-color: #FF7F00; color:#fff;}
+.search-row .btn-color:active{background-color: #FF7F00; color:#fff;}
+.btn-margin{margin-left: 22px;}
+
